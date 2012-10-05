@@ -1,6 +1,7 @@
 import imaplib
 import sys
 
+
 def extract_label(groups, label_string):
     parts = label_string.split("/")
     root = groups
